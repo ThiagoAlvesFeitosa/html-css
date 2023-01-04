@@ -181,6 +181,7 @@ aside {
   padding: 10px;
   border-radius: 10px;
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.226);
+  list-style-position: inside;
 }
 
 aside h3 {
@@ -192,7 +193,6 @@ aside h3 {
 }
 
 aside ul {
-  list-style-position: inside;
   list-style-type: '\2712\00A0';
   columns: 2;
 }
