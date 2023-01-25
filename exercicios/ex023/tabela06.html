@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 10px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+       tr:nth-child(even) {
+        background-color: rgba(231, 233, 236, 0.987);
+       }
+
+       div#container {
+        overflow-x:  auto;
+        
+       }
+
+    </style>
+</head>
+<body>
+    <h1>Tabelas telas pequenas</h1>
+    <div id="container">
+      <table>
+          <colgroup>
+            <col class="cnome">
+            <col class="cgrupo" span="3">
+      
+          </colgroup>
+          <caption>
+              Cadastro
+          </caption>
+      
+              <thead>
+                <tr>
+                    <th scope="col">Produto</th>
+                    <th scope="col">Jan</th>
+                    <th scope="col">Fev</th>
+                    <th scope="col">Mar</th>
+                    <th scope="col">Abr</th>
+                    <th scope="col">Mai</th>
+                    <th scope="col">Jun</th>
+                    <th scope="col">Jul</th>
+                    <th scope="col">Ago</th>
+                    <th scope="col">Set</th>
+                    <th scope="col">Out</th>
+                    <th scope="col">Nov</th>
+                    <th scope="col">Dez</th>
+      
+                </tr>
+              </thead>
+      
+              <tbody>
+                <tr>
+                  <td>xsd</td>
+                  <td>1</td>
+                  <td>17</td>
+                  <td>15</td>
+                  <td>15</td>
+                  <td>165</td>
+                  <td>17</td>
+                  <td>17</td>
+                  <td>19</td>
+                  <td>10</td>
+                  <td>9</td>
+                  <td>6</td>
+                  <td>14</td>
+                </tr>
+              </tbody>
+      
+      
+      
+      </table>
+    </div>
+</body>
+</html>
