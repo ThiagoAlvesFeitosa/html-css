@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+</head>
+<body>
+  <h1>Teste de formulario</h1>
+  <form action="CADASTRO.PHP" method="POST" autocomplete="on">
+    
+
+      <fieldset>
+        <legend>Sexo</legend>
+        <input type="radio" name="sexo" id="isxmas" value="M"> <label for="isxmas">Masculino</label>
+        <input type="radio" name="sexo" id="isxfem" value="F"> <label for="isxfem">Feminino</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Esportes favoritos</legend>
+        <input type="checkbox" name="esfut" id="iesfut"> <label for="iesfut">Futebol</label> <br>
+        <input type="checkbox" name="esbasq" id="iesbasq"> <label for="iesbasq">Basquete</label> <br>
+        <input type="checkbox" name="esnat" id="iesnat"> <label for="iesnat">Natacao</label> <br>
+        <input type="checkbox" name="esten" id="iesten"> <label for="iesten">Tenis</label> <br>
+      </fieldset>
+      
+      <p>
+        <label for="icor">Cor:</label>
+        <input type="color" name="cor" id="icor">
+      </p>
+
+      <p>
+        <label for="inivel">Nivel de satisfacao:</label>
+        <input type="range" name="nivel" id="inivel" min="1" max="5" value="2">
+      </p>
+
+      <p>
+        <label for="ifoto">Foto do Perfil:</label>
+        <input type="file" name="foto" id="ifoto">
+      </p>
+    
+<!-- ESTUDAR REGEX-->
+    
+  </form>
+</body>
+</html>
