@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos/style.css">
+  <link rel="stylesheet" href="estilos/media-query.css" media="all">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body onresize="mudouTamanho()">
+  <header>
+    <h1>Mu Site</h1>
+    <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+    <menu id="menu">
+      <ul>
+        <li><a href="#">Opcao 1</a></li>
+        <li><a href="#">Opcao 2</a></li>
+        <li><a href="#">Opcao 3</a></li>
+        <li><a href="#">Opcao 4</a></li>
+        <li><a href="#">Opcao 5</a></li>
+      </ul>
+    </menu>
+  </header>
+google icons material.io
+  <main>
+    <article>
+      <h2>Testando midia queries</h2>
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores provident, quas eum dolore est non iure placeat iste cum voluptate ex enim expedita dolor harum voluptatibus ipsum? Enim, provident modi! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam ut odio blanditiis maiores tempore consequatur rem vero deleniti a, molestias, nobis quaerat voluptatem, quasi vel provident exercitationem magni distinctio amet! Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit libero voluptates, cum quod nisi molestiae! Quaerat debitis in dignissimos ipsam distinctio autem expedita mollitia nam! Placeat dolorum maxime in cumque?</p>
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores provident, quas eum dolore est non iure placeat iste cum voluptate ex enim expedita dolor harum voluptatibus ipsum? Enim, provident modi! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam ut odio blanditiis maiores tempore consequatur rem vero deleniti a, molestias, nobis quaerat voluptatem, quasi vel provident exercitationem magni distinctio amet! Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit libero voluptates, cum quod nisi molestiae! Quaerat debitis in dignissimos ipsam distinctio autem expedita mollitia nam! Placeat dolorum maxime in cumque?</p>
+    </article>
+  </main>
+  <script>
+
+    function mudouTamanho() {
+      if (window.innerWidth >= 768 ) {
+        burger.style.display = 'none'
+      } else {
+        burger.style.display = 'block'
+      }
+    }
+
+
+    function clickMenu() {
+      if (menu.style.display =='block') {
+        menu.style.display = 'none'
+      } else {
+      menu.style.display = 'block'
+      }
+    }
+  </script>
+</body>
+</html>
